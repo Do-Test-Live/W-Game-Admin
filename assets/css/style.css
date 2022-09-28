@@ -47,7 +47,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #ffffff;
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent
@@ -2069,7 +2069,7 @@ progress {
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    background-color: #fff;
+    background-color: #263c74;
     background-clip: padding-box;
     border: 1px solid #ced4da;
     appearance: none;
@@ -4349,7 +4349,7 @@ textarea.form-control .was-validated :invalid, textarea.form-control .is-invalid
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: #263c74;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: .25rem
@@ -4383,7 +4383,7 @@ textarea.form-control .was-validated :invalid, textarea.form-control .is-invalid
 
 .card-body {
     flex: 1 1 auto;
-    padding: 1rem 1rem
+    padding: 1rem 1rem;
 }
 
 .card-title {
@@ -11339,7 +11339,7 @@ html.menu-open {
 }
 
 body {
-    background: #eef0f8;
+    background-image: linear-gradient(#0d1e4a, #0d1e4a);
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     overflow-y: auto
@@ -11823,7 +11823,7 @@ body {
 }
 
 .header.active {
-    background: rgba(220, 224, 241, 0.95);
+    background: rgb(38 60 116);
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     -webkt-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1)
@@ -12649,14 +12649,14 @@ main.has-header {
 }
 
 .footer {
-    background: #fff;
+    background: #263c74;
     color: #7297f8;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     z-index: 9;
-    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
     -webkt-box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1)
 }
